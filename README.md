@@ -53,5 +53,8 @@ A web application that allows users to create, modify, evaluate, and combine rul
 [GitHub Repository Link]=(https://github.com/Akshada-26/AkshadaZinzurade_ZeotapInternApplication1)
 
 
+##Outputs
 
--
+![image](https://github.com/user-attachments/assets/8eacbb47-3ad7-43db-af74-4b36f719d922)
+![image](https://github.com/user-attachments/assets/c9b52125-0184-448c-851c-647ad20a4f3a)
+
