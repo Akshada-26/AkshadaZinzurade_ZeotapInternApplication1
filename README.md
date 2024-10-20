@@ -1,8 +1,3 @@
-# AkshadaZinzurade_ZeotapInternAssignment
-
-Here’s a README template for your Rule Engine project, formatted as you requested:
-
----
 
 # Rule Engine
 
