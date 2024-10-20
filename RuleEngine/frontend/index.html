@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rule Engine</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rule Engine</h1>
+
+        <div>
+            <h2>Create Rule</h2>
+            <textarea id="ruleInput" rows="4" placeholder="Enter rule..."></textarea>
+            <button onclick="createRule()">Create Rule</button>
+            <p id="createResponse" class="response"></p>
+        </div>
+
+        <div>
+            <h2>Modify Rule</h2>
+            <input type="number" id="modifyRuleId" placeholder="Rule ID">
+            <textarea id="modifyRuleInput" rows="4" placeholder="Enter new rule..."></textarea>
+            <button onclick="modifyRule()">Modify Rule</button>
+            <p id="modifyResponse" class="response"></p>
+        </div>
+
+        <div>
+            <h2>Evaluate Rule</h2>
+            <input type="number" id="evaluateRuleId" placeholder="Rule ID">
+            <textarea id="userDataInput" rows="4" placeholder='{"age": 30, "department": "HR", "income": 50000}'></textarea>
+            <button onclick="evaluateRule()">Evaluate Rule</button>
+            <p id="evaluateResponse" class="response"></p>
+        </div>
+
+        <div>
+            <h2>Combine Rules</h2>
+            <input type="text" id="combineRuleIds" placeholder="Comma-separated Rule IDs">
+            <button onclick="combineRules()">Combine Rules</button>
+            <p id="combineResponse" class="response"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
